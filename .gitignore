@@ -1,0 +1,58 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# === Archivos de sistema operativo ===
+.DS_Store
+Thumbs.db
+
+# === Archivos de log y temporales ===
+*.log
+*.tmp
+tmp/
+
+# === Configuración del usuario y llaves privadas ===
+*.env
+*.keystore
+*.jks
+
+# === IDEs y configuraciones locales ===
+*.iml
+.idea/
+.vscode/
+**/.idea/
+**/.vscode/
+**/*.iml
+**/local.properties
+
+# === Build y dependencias ===
+node_modules/
+.gradle/
+**/.gradle/
+**/build/
+**/app/build/
+**/App1/build/
+**/App2/build/
+
+# === Librerías externas pesadas (opcional) ===
+**/libs/*.jar
+**/libs/*.aar
+
+# === Forzar seguimiento de archivos importantes (no ignorar) ===
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/gradle/wrapper/gradle-wrapper.properties
+!**/settings.gradle
+!**/build.gradle
+!**/app/src/main/**/*
