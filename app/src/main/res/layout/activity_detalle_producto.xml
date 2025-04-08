@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detalleproducto.DetalleProductoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <!--Nombre del producto-->
+            <TextView
+                android:id="@+id/nombrePD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombrePD"
+                android:textColor="@color/md_theme_primary_highContrast"
+                android:textSize="26sp" />
+
+            <!--Para deslizar las imagenes del producto-->
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/vpImagen"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/nombrePD" />
+
+            <RelativeLayout
+                android:id="@+id/rl_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/vpImagen"
+                android:layout_marginTop="12dp">
+
+                <!--Precio del producto-->
+                <TextView
+                    android:id="@+id/precioPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="6dp"
+                    android:text="@string/precioPD"
+                    android:textSize="20sp" />
+
+                <!--Precio con descuento del producto-->
+                <TextView
+                    android:id="@+id/precioDescPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/precioPD"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/precioPD"
+                    android:padding="6dp"
+                    android:text="@string/precioDescPD"
+                    android:textSize="20sp" />
+
+                <!--Nota del descuento del producto-->
+                <TextView
+                    android:id="@+id/notaDescPD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/precioDescPD"
+                    android:background="@drawable/fondo_verde"
+                    android:padding="6dp"
+                    android:text="@string/notaDescPD"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <!--Descripcion General del Producto-->
+            <TextView
+                android:id="@+id/txtDescripcionPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_precio"
+                android:layout_marginTop="6dp"
+                android:text="@string/txtDescripcionPD"
+                android:textStyle="bold" />
+
+            <!--Descripcion del producto-->
+            <TextView
+                android:id="@+id/descripcionPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtDescripcionPD"
+                android:layout_marginTop="6dp"
+                android:text="@string/descripcionPD"
+                android:textSize="16sp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/item_agregar_carrito_p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/descripcionPD"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="12dp"
+                android:text="@string/item_agregar_carrito_p"
+                android:textAllCaps="true"
+                app:cornerRadius="8dp"
+                app:icon="@drawable/ic_carrito" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

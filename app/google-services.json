@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "426171012935",
+    "firebase_url": "https://dam-1-55834-default-rtdb.firebaseio.com",
+    "project_id": "dam-1-55834",
+    "storage_bucket": "dam-1-55834.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426171012935:android:dc7a6965416a7e402d9e62",
+        "android_client_info": {
+          "package_name": "com.petstore.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426171012935-cju24rueaqlo2ir1c9pkg2f221r8bat5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.petstore.app",
+            "certificate_hash": "e97ada23b2cc016ab3307adedf205b1e71b09972"
+          }
+        },
+        {
+          "client_id": "426171012935-s4agvpadssatg2bv38g42qen5pkss29o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwr1m9rRS38xNNJQgORPmlnf6mic5oXXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426171012935-s4agvpadssatg2bv38g42qen5pkss29o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Pet Store</string>
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+
+    <string name="tipoVendedor">Vendedor</string>
+    <string name="tipoCliente">Cliente</string>
+
+    <!--NavigationDrawer Vendedor-->
+    <string name="op_inicio_v">Inicio</string>
+    <string name="op_mi_tieda_v">Mi Tienda</string>
+    <string name="op_categorias_v">Categorías</string>
+    <string name="op_resenia_v">Reseñas</string>
+    <string name="op_cerrar_sesion_v">Cerrar Sesión</string>
+
+    <!--NavigationDrawer Cliente-->
+    <string name="op_inicio_c">Inicio</string>
+    <string name="op_mi_perfil_c">Mi Tienda</string>
+    <string name="op_carrito_c">Carrito</string>
+    <string name="op_cerrar_sesion_c">Cerrar Sesión</string>
+
+    <!--Bottom Navigation Bar Vendedor-->
+    <string name="op_mis_productos_v">Mis Productos</string>
+    <string name="op_mis_ordenes_v">Órdenes</string>
+
+    <!--Bottom Navigation Bar Vendedor-->
+    <string name="op_tienda_c">Tienda</string>
+    <string name="op_favoritos_c">Favoritos</string>
+    <string name="op_mis_ordenes_c">Mis Órdenes</string>
+
+    <string name="txt_bienvenida">Bienvenido(a)</string>
+    <string name="bottom_añadir_desc">Botón para añadir productos</string>
+
+
+    <!--Registro vendedor-->
+    <string name="txtRegistroC">Registro de Cliente</string>
+    <!--Registro vendedor-->
+    <string name="txtRegistroV">Registro de Vendedor</string>
+
+    <!--Registro Comun-->
+    <string name="etNombres">Nombres Completos</string>
+    <string name="etEmail">Correo Electrónico</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="etConfirmarPassword">Confirmar Contraseña</string>
+    <string name="btnRegistrar">Registrarme</string>
+
+
+    <!--Login Vendedor-->
+    <string name="txtLoginV">Login de vendedor</string>
+    <!--Login Cliente-->
+    <string name="txtLoginC">Login de cliente</string>
+    <!-- Login Comun-->
+    <string name="btnLogin">Ingresar</string>
+    <string name="txtNoCuenta">¿No tienes una cuenta? </string>
+    <string name="tvRegistrar">Registrarme</string>
+
+    <!-- Productos-->
+    <string name="txtAgregarProductos">Agregar productos</string>
+    <string name="etNombresP">Nombre del Producto</string>
+    <string name="etDescripcionP">Descripción</string>
+    <string name="categoria">Categoría</string>
+    <string name="etPrecioP">Precio</string>
+    <string name="txtDescuento">Descuento</string>
+    <string name="etPorcentajeDescuentoP">Ingrese porcentaje. Ejm. 20, 50, 10</string>
+    <string name="etPrecioConDescuentoP" />
+    <string name="etNotaDescuentoP">Ejm: 10% OFF</string>
+    <string name="btnAgregarProducto">Agregar Producto</string>
+    <string name="btnCalcularPrecioDesc">Calcular</string>
+    <string name="txtPrecioConDescuentoP">Precio con descuento apli.</string>
+
+    <!--Agregar Categorias-->
+    <string name="etCategoria">Ingrese Categoria</string>
+    <string name="btnAgregarCategoria">Agregar Categoria</string>
+
+    <!--Item categoria V-->
+    <string name="item_nombre_c_v">Nombre de la categoría</string>
+    <!--Item categoria C-->
+    <string name="item_nombre_c_c">Nombre de la categoría</string>
+    <string name="item_ver_productos">Ver Productos</string>
+
+    <!--Item Producto - V-->
+    <string name="item_nombre_p">Nombre del Producto</string>
+    <string name="item_nota_p">50% OFF</string>
+    <string name="item_precio_p">00</string>
+    <string name="item_precio_p_dec">00</string>
+
+    <!--Item producto - C-->
+    <string name="item_agregar_carrito_p">Agregar al carrito</string>
+
+    <string name="etBuscarProducto">Buscar Producto</string>
+
+    <!--Registro con Numero de Telefono-->
+    <string name="txtLoginTelC">Login con Teléfono</string>
+    <string name="etTelefono">Teléfono</string>
+    <string name="etCodVer">Código</string>
+    <string name="btnEnviarCodigo">Enviar Código</string>
+    <string name="btnVerificarCodigo">Verificar Código</string>
+    <string name="tvReenviarCodigo">¿No recibiste el código? <b>Reenviar</b></string>
+
+    <!--Detalle del producto-->
+    <string name="nombrePD">Nombre del producto</string>
+    <string name="txtDescripcionPD">Información general: </string>
+    <string name="descripcionPD">Descripción</string>
+    <string name="precioPD">00</string>
+    <string name="precioDescPD">00</string>
+    <string name="notaDescPD">50% OFF</string>
+
+    <string name="tvImagenContador">1/5</string>
+
+    <!--Carrito de compras-->
+    <string name="nombrePCar">Nombre del producto</string>
+    <string name="descripcioPCar">Descipción</string>
+    <string name="notaDescPCar">10% OFF</string>
+    <string name="PrecioOriginalPCar">00</string>
+    <string name="precioDescPCar">00</string>
+    <string name="cantidadPCar">1</string>
+    <string name="precioFinalPCar">00</string>
+    <string name="btnAgregarCarrito">Agregar al carrito</string>
+
+
+    <!--zoom a la imagen-->
+    <string name="cerrarZoom">Cerrar Zoom</string>
+
+    <!---->
+    <string name="sumaProductos">Suma Productos</string>
+
+    <string name="item_de_lista_de_categorias">item de lista de categorias</string>
+    <string name="default_web_client_id">426171012935-s4agvpadssatg2bv38g42qen5pkss29o.apps.googleusercontent.com</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+
+</resources>
